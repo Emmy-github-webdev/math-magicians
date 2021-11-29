@@ -15,11 +15,6 @@ If you like what you see and have a project you need coded, don't hesitate to co
 - Technologies used: Web services, babelrc
 
 
-# Live Demo
-
-[Live Demo Link]().
-
-
 # Getting Started
 
 
