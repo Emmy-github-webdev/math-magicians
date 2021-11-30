@@ -1,0 +1,40 @@
+.calc-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh;
+  width: 240px;
+}
+
+.calc-row {
+  width: 100%;
+}
+.calc-button,
+.calc-zero,
+.calc-operator {
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  outline: 1px solid #888;
+}
+
+.calc-button,
+.calc-operator {
+  width: 50px;
+  height: 50px;
+}
+
+.calc-button {
+  color: #888;
+}
+
+.calc-zero {
+  width: 100px;
+  height: 50px;
+}
+
+.calc-operator {
+  background-color: #fe9241;
+  color: #888;
+}
