@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   font-weight: lighter;
-  font-size: 1.4em;
+  font-size: 1em;
   outline: 1px solid #d3d3d3;
   color: #99948f;
   border: none;
@@ -35,6 +35,7 @@
 .calc-zero {
   width: 160px;
   height: 55px;
+  background-color: #e0e0e0;
 }
 
 .calc-operator {
@@ -43,12 +44,12 @@
 
 .calc-input {
   height: 2em;
-  width: 298px;
+  width: 304.2px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1em;
   background-color: #858694;
   color: #fff;
   padding: 0.5em;
