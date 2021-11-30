@@ -1,4 +1,6 @@
-/* eslint linebreak-style: ["error", "windows"] */
+/* eslint-disable linebreak-style */
+/* eslint-disable indent */
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import './Calculator.css';
 
