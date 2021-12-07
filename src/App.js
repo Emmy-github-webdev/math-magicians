@@ -1,20 +1,18 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calculator';
+import HomeScreen from './screens/HomeScreen';
+import CalculatorScreen from './screens/CalculatorScreen';
+import QuoteScreen from './screens/QuoteScreen';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div className="app">
-        <Calculator />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomeScreen />} exact />
+      <Route path="/calculator" element={<CalculatorScreen />} exact />
+      <Route path="/quotes" element={<QuoteScreen />} exact />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
