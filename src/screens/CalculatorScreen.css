@@ -1,0 +1,14 @@
+.calculatorscreen-container {
+  margin: 5% 15%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.calculatorscreen-text p {
+  font-size: 2.1em;
+  font-weight: bold;
+  margin-bottom: 3vh;
+  padding: 3px;
+}

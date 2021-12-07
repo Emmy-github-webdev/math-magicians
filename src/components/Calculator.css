@@ -44,8 +44,8 @@
 }
 
 .calc-input {
-  height: 2em;
-  width: 304.2px;
+  height: 3em;
+  width: 83.5%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
