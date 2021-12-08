@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => (
   <div className="nav-bar">
-    <h1 data-test="header-item">Math Magicians</h1>
+    <h1 >Math Magicians</h1>
     <nav>
       <Link to="/" data-test="header-item" className="nav-list">Home</Link>
       {' '}

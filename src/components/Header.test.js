@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './Header';
-import {shallow} from "enzyme";
+import renderer from 'react-test-renderer';
+import {Link} from '../Link.react';
 
-it('Header should render without error', () => {
-  const headerItems = shallow(<Header />);
-  const headerItemWrapper = headerItems.find(`[data-test='header-item']`);
-  expect(headerItemWrapper.length).toBe(4);
+it('renders correctly', () => {
+  const tree = renderer
+    .create(<Link page="/">Home</Link>)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

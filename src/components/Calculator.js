@@ -26,7 +26,7 @@ const Calculator = () => {
   };
 
   return (
-    <div data-test="calculatorWrapper" className="calc-content">
+    <div className="calc-content">
       <div className="calc-input">{val}</div>
       <div className="calc-row">
         <button className="calc-button" type="button" onClick={clickHandler}>AC</button>
