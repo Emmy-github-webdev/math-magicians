@@ -1,0 +1,15 @@
+.quotescreen-container {
+  margin: 5% 15%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quotescreen-container p {
+  font-size: 1.5em;
+  font-style: normal;
+  margin-bottom: 3vh;
+  text-align: left;
+  padding: 3px;
+}
