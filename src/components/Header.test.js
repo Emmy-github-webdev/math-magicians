@@ -1,10 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Link from '../Link.react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './Header';
 
-it('renders correctly', () => {
-  const tree = renderer
-    .create(<Link page="/">Home</Link>)
+
+test('renders correctly', () => {
+  const Nav = renderer
+    .create(<Router><Header /></Router>)
     .toJSON();
-  expect(tree).toMatchSnapshot();
+  expect(Nav).toMatchSnapshot();
 });
