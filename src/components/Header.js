@@ -5,19 +5,19 @@ import './Header.css';
 
 const Header = () => (
   <div className="nav-bar">
-    <h1>Math Magicians</h1>
+    <h1 data-test="header-item">Math Magicians</h1>
     <nav>
-      <Link to="/" className="nav-list">Home</Link>
+      <Link to="/" data-test="header-item" className="nav-list">Home</Link>
       {' '}
       |
       {' '}
 
-      <Link to="/calculator" className="nav-list">Calculator</Link>
+      <Link to="/calculator" data-test="header-item" className="nav-list">Calculator</Link>
       {' '}
       |
       {' '}
 
-      <Link to="/quote" className="nav-list">Quote</Link>
+      <Link to="/quote" data-test="header-item" className="nav-list">Quote</Link>
 
     </nav>
   </div>
