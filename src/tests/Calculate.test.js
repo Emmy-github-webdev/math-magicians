@@ -17,7 +17,6 @@ describe('Check calculation methods', () => {
 });
 
 describe('Check click button', () => {
-
   it('Button value should work without error', () => {
     obj.next = '0';
     expect(calculate(obj, '0')).toEqual({});
