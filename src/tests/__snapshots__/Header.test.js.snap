@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check page header rendering Should render without error 1`] = `
+<div
+  className="nav-bar"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <nav>
+    <a
+      className="nav-list"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+     
+    |
+     
+    <a
+      className="nav-list"
+      href="/calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+     
+    |
+     
+    <a
+      className="nav-list"
+      href="/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </nav>
+</div>
+`;

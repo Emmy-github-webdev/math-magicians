@@ -1,0 +1,22 @@
+.homescreen-container {
+  margin: 5% 15%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.homescreen-container h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 3vh;
+  padding: 3px;
+}
+
+.homescreen-container p {
+  text-align: left;
+  padding: 3px;
+  font-size: 1.2em;
+  color: #000;
+  margin-bottom: 2vh;
+}
