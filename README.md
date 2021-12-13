@@ -20,6 +20,10 @@ If you like what you see and have a project you need coded, don't hesitate to co
 
 To get a local copy up and running follow these simple example steps.
 
+## Live Demo
+- [Netlify](https://naughty-bardeen-41c5f7.netlify.app/).
+- [Heroku](https://math-magicians-demo-e.herokuapp.com/).
+
 ## Prerequisites
 - A working Laptop or Desktop
 ## Setup
